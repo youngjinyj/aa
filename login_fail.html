@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        fieldset{
+            position:absolute;
+            top: 40%;
+            left: 40%;
+            border-radius: 20%;
+        }
+        button{
+            text-align: right;
+        }
+        input{
+            background-color: black;
+            color: white;
+        }
+        form{text-align: center;}
+
+    </style>
+</head>
+<body>
+    <fieldset style="width: 300px;">
+        <legend><h3>로그인</h3></legend>
+            <form action="login_success.html">
+                <label for="ID">I D</label>
+                    <input type="text" value="" id="ID"><br>
+                <label for="password">PW</label>
+                    <input type="password" id="PW" placeholder="비밀번호를 입력해주세요."><br>
+                    <button type="submit">로그인</button>
+            </form>
+            <form action="custumerimpormation.html">
+                <button type="submit">회원가입</button>
+            </form>
+    </fieldset>
+</body>
+</html>
