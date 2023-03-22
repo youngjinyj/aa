@@ -1,0 +1,12 @@
+h3{text-align: center;}
+header{background-color: yellow;}
+main{background-color: pink;
+    margin: 20px;}
+footer{background-color: plum;
+    height: 150px;
+    }
+footer>div{
+    position:relative ;
+    top:10px;
+    left: 20px;
+}
