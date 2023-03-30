@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border: 1px solid black;
+    padding : 20px 0;
+}
+
+#wrap_in_form {
+    width: 50%;
+    text-align: right;
+}
+
+#account_wrap {
+    display: flex;
+    height: 40px;
+    padding: 10px 0;
+}
+.account {
+    cursor: pointer;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#acc1:hover {
+    border-width: 3px;
+    border-image: linear-gradient(to top, white, green);
+    border-image-slice: 1;
+}
+#acc2:hover{
+    border-width: 3px;
+    border-image: linear-gradient(to top, white, purple);
+    border-image-slice: 1;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+    padding-left: 5px;
+    font-size: 1.5em;
+}
+input::placeholder {
+    text-align: center;
+    color: rgb(177, 177, 177);
+}
+
+button {
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+button:hover, footer>span:hover {
+    color: blue;
+}
+
+footer > span {
+    cursor: pointer;
+    font-size: 1.5em;
+}
