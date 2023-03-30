@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <!-- 여기서부터는 스타일 -->
+        <style>
+            #outerline {
+                margin:0 auto;
+                width: 700px;
+                height: 500px;
+                text-align: center;
+                /* display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh; */
+            }
+            #img {
+                text-align: center;
+                font-size: 18px;
+            }
+            .header {
+                margin:0 auto; 
+                text-align: center;
+                width: 300px;
+                height: 190px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: black;
+            }
+           
+            #name {
+                text-align: center;
+            }
+            #pw {
+                text-align: center;
+            }
+        </style>
+        <!-- 여기서부터는 스크립트 -->
+        <script>
+        function checkFilled(obj) {
+            if(obj.value=="") {
+                obj.focus();
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <div id="outerline">
+            <header id="img">YJ style</header><br>
+            <div class="header"><br>
+            <button id="button1"><span1>naver</span1></button>&nbsp;&nbsp;&nbsp;<button id="button2"><span2>YJ style</span2></button><br><br>
+            <form>
+                <input type="text" id="name" placeholder="ID"
+                            onblur="checkFilled(this)"><br><br>
+                <input type="text" id="pw" placeholder="PASS WORD">
+            </form>
+            <button id="button3">login</button>
+            </div><br>
+            <button id="button4">YJ style 회원가입</button>
+        </div>
+    </body>
+</html>
